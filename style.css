@@ -1,49 +1,84 @@
+/* Đặt font chung cho nội dung */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #8589b0;
-      padding: 20px;
-    }
+/* Định dạng tiêu đề (header) */
+header {
+  background-color: #cfe2f3; /* xanh nhạt */
+  padding: 20px;
+}
 
-    .news-box {
-      width: 400px;
-      border: 1px solid #ccc;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
+/* Định dạng nav */
+nav {
+  background-color: #6fa8dc;
+  padding: 10px;
+  display: inline-block;
+  width: 80%;
+}
 
-    .news-box img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+/* Định dạng main */
+main {
+  background-color: #f4f4f4; /* xám nhạt */
+  font-size: 18px;
+  padding: 20px;
+}
 
-    .main-title {
-      background-color: #972965;
-      padding: 15px;
-    }
+/* Định dạng footer */
+footer {
+  background-color: #ddd; /* xám */
+  padding: 15px;
+  text-align: center;
+}
 
-    .main-title a {
-      text-decoration: none;
-      color: #333;
-      font-size: 18px;
-      font-weight: bold;
-    }
+/* Định dạng các mục danh sách trong nav */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
-    .sub-titles {
-      padding: 15px;
-      background-color: #cc2d2d;
-    }
+/*nav li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  margin-right: 10px;
+}*/
+nav img {
+  width: 10%;
+}
+/* Định dạng h1 */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #2e4053;
+}
 
-    .sub-titles li {
-      margin-bottom: 10px;
-      color: #3b263b;
-    }
+/* Định dạng thẻ p */
+p {
+  line-height: 1.6;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+  column-gap: 20px;
+}
 
-    .sub-titles a {
-      text-decoration: none;
-      color: #8b008b;
-    }
 
-    .sub-titles a:hover {
-      text-decoration: underline;
-    }
+.grid img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
