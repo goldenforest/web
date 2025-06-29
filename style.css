@@ -1,0 +1,49 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #8589b0;
+      padding: 20px;
+    }
+
+    .news-box {
+      width: 400px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .news-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .main-title {
+      background-color: #972965;
+      padding: 15px;
+    }
+
+    .main-title a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .sub-titles {
+      padding: 15px;
+      background-color: #cc2d2d;
+    }
+
+    .sub-titles li {
+      margin-bottom: 10px;
+      color: #3b263b;
+    }
+
+    .sub-titles a {
+      text-decoration: none;
+      color: #8b008b;
+    }
+
+    .sub-titles a:hover {
+      text-decoration: underline;
+    }
